@@ -1,0 +1,6 @@
+<h1>AWW Subreddit</h1>
+<div *ngFor="let post of posts">
+  <p>{{ post.data.title }}</p>
+  <img src="{{ post.data.thumbnail }}" alt="no-image" />
+  <a href="{{ post.data.url }}">Click Here</a>
+</div>
